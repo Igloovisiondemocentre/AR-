@@ -1,0 +1,14 @@
+{
+  "name": "igloo-model-qr-viewer",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Standalone static 3D model viewer with QR generation for mobile museum experiences.",
+  "scripts": {
+    "qr": "node ./generate_model_qr_codes.mjs",
+    "qr:jpg": "node ./generate_qr_jpegs.mjs"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4"
+  }
+}
